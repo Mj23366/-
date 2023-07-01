@@ -177,3 +177,5 @@ def process_img(image):
 
 2.  
 
+sudo apt-get install libjasper-dev 
+
