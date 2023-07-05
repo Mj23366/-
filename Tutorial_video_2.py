@@ -27,7 +27,7 @@ def process_img(image):
     i = np.array(image.raw_data)
     i2 = i.reshape((IM_HEIGHT, IM_WIDTH, 4))
     i3 = i2[:, :, :3]
-    time.sleep(0.01)
+    # time.sleep(0.01)
     cv2.imshow("123", i3)
     cv2.waitKey(0)
     return i3 / 255.0
